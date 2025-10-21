@@ -1,0 +1,124 @@
+/* Light Theme (default) */
+:root {
+  --soft-pink: #FCE8EE;
+  --blush: #F6B1C4;
+  --creamy-white: #FFF8F6;
+  --warm-rose: #FF6B8A;
+  --deep-maroon: #7A1836;
+  --text-color: #7A1836;
+  --background-color: #FFF8F6;
+}
+
+/* Warm Night Theme */
+[data-theme="dark"] {
+  --soft-pink: #2a1a22;
+  --blush: #4a2a3a;
+  --creamy-white: #1a1216;
+  --warm-rose: #ff8ba7;
+  --deep-maroon: #f8c6d0;
+  --text-color: #f8c6d0;
+  --background-color: #1a1216;
+}
+
+[data-theme="dark"] body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+[data-theme="dark"] .welcome-section {
+  background: linear-gradient(135deg, var(--soft-pink), var(--creamy-white));
+}
+
+[data-theme="dark"] .story-section {
+  background-color: var(--soft-pink);
+}
+
+[data-theme="dark"] .quotes-section {
+  background-color: var(--creamy-white);
+}
+
+[data-theme="dark"] .memories-section {
+  background-color: var(--blush);
+}
+
+[data-theme="dark"] .message-section {
+  background-color: var(--soft-pink);
+}
+
+[data-theme="dark"] .message-container {
+  background: linear-gradient(135deg, #3a2a1a, #4a3a2a);
+}
+
+[data-theme="dark"] .message-content {
+  color: #f8c6d0;
+}
+
+[data-theme="dark"] .ending-section {
+  background: linear-gradient(135deg, var(--deep-maroon), #2a0f1a);
+}
+
+[data-theme="dark"] .timeline-content {
+  background: #3a222a;
+  color: var(--deep-maroon);
+}
+
+[data-theme="dark"] .timeline-date {
+  color: var(--warm-rose);
+}
+
+[data-theme="dark"] .timeline-text {
+  color: #f8c6d0;
+}
+
+[data-theme="dark"] .quote-card {
+  background: rgba(58, 34, 42, 0.7);
+  color: var(--deep-maroon);
+}
+
+[data-theme="dark"] .quote-text {
+  color: var(--deep-maroon);
+}
+
+[data-theme="dark"] .polaroid-card {
+  background: #3a222a;
+}
+
+[data-theme="dark"] .polaroid-caption {
+  color: var(--deep-maroon);
+}
+
+[data-theme="dark"] .reveal-button {
+  background-color: var(--warm-rose);
+}
+
+[data-theme="dark"] .control-btn {
+  background: var(--warm-rose);
+}
+
+[data-theme="dark"] .indicator {
+  background: var(--blush);
+}
+
+[data-theme="dark"] .indicator.active {
+  background: var(--warm-rose);
+}
+
+[data-theme="dark"] .heart-button {
+  color: var(--warm-rose);
+}
+
+[data-theme="dark"] .overlay-content {
+  background: linear-gradient(135deg, var(--soft-pink), var(--blush));
+}
+
+[data-theme="dark"] .overlay-content h3 {
+  color: var(--deep-maroon);
+}
+
+[data-theme="dark"] .close-overlay {
+  color: var(--deep-maroon);
+}
+
+[data-theme="dark"] .easter-egg {
+  background-color: var(--warm-rose);
+}
